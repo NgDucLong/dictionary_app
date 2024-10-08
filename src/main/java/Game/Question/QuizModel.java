@@ -10,10 +10,6 @@ public class QuizModel extends Question {
         return questionList;
     }
 
-    public void setQuestions(ArrayList<Question> questionList) {
-        this.questionList = questionList;
-    }
-
     // Constructor
     public QuizModel(ArrayList<Question> questionList) {
         this.questionList = questionList;

@@ -1,6 +1,5 @@
 package Screen;
 
-import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -14,7 +13,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-import java.awt.event.ActionEvent;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -28,7 +26,7 @@ import javafx.scene.image.ImageView;
 
 public class SearchWords extends App {
     public Button SoundButton;
-    private Map<String, Word> data = new HashMap<>();
+    private final Map<String, Word> data = new HashMap<>();
     @FXML
     private ListView<String> listView;
     @FXML
@@ -43,12 +41,6 @@ public class SearchWords extends App {
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
-    }
-
-    public void initComponents(AnchorPane root) {
-        this.webView = (WebView) root.lookup("#webView");
-        this.listView = (ListView<String>) root.lookup("#listView");
-        this.searchField = (TextField) root.lookup("#searchField");
     }
 
     public void readWordsFromFiles(String filename) throws IOException {
