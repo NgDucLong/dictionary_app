@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Screen.Translate">
+    <!-- Giao diện chuyển từ E-V -->
+    <AnchorPane fx:id="translateEtoVPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <ImageView fx:id="EVImage" fitHeight="680.0" fitWidth="1000.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Image/E-V.png" />
+                </image>
+                <cursor>
+                    <Cursor fx:constant="DEFAULT" />
+                </cursor>
+            </ImageView>
+        </children>
+    </AnchorPane>
+    <AnchorPane fx:id="translateVtoEPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <ImageView fx:id="VEImage" fitHeight="680.0" fitWidth="1000.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../Image/V-E.png" />
+                </image>
+                <cursor>
+                    <Cursor fx:constant="DEFAULT" />
+                </cursor>
+            </ImageView>
+
+
+        </children>
+    </AnchorPane>
+    <Button fx:id="Swap" layoutX="465.0" layoutY="138.0" mnemonicParsing="false" onAction="#swapButtonClicked" opacity="0.0" prefHeight="46.0" prefWidth="66.0">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+    <TextArea fx:id="text_target" layoutX="34.0" layoutY="201.0" prefHeight="258.0" prefWidth="409.0" promptText="Type text" wrapText="true" />
+    <TextArea fx:id="text_explain" editable="false" layoutX="554.0" layoutY="201.0" prefHeight="258.0" prefWidth="403.0" promptText="Translate" wrapText="true" />
+    <Button fx:id="TranslateButton" layoutX="458.0" layoutY="346.0" mnemonicParsing="false" opacity="0.0" prefHeight="30.0" prefWidth="81.0">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+    <Button fx:id="Sound_1" layoutX="40.0" layoutY="476.0" mnemonicParsing="false" onAction="#soundButton1Clicked" opacity="0.0" prefHeight="40.0" prefWidth="54.0">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+    <Button fx:id="Sound_2" layoutX="552.0" layoutY="476.0" mnemonicParsing="false" onAction="#soundButton2Clicked" opacity="0.0" prefHeight="40.0" prefWidth="54.0">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+    <Button fx:id="buttonBack" layoutX="23.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchBack" opacity="0.0" prefHeight="80.0" prefWidth="89.0">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </Button>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Screen.AddWords">
+    <children>
+        <ImageView fitHeight="680.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Image/AddWords.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="buttonAdd" layoutX="340.0" layoutY="304.0" mnemonicParsing="false" onAction="#addWord" opacity="0.0" prefHeight="54.0" prefWidth="125.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button fx:id="buttonDelete" layoutX="340.0" layoutY="399.0" mnemonicParsing="false" onAction="#deleteWord" opacity="0.0" prefHeight="54.0" prefWidth="126.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <TextField fx:id="textWord" layoutX="24.0" layoutY="217.0" prefHeight="48.0" prefWidth="282.0" style="-fx-background-color: transparent; -fx-background-insets: 0;">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextArea fx:id="textMeaning" layoutX="27.0" layoutY="433.0" prefHeight="147.0" prefWidth="282.0" wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextArea>
+        <ListView fx:id="listView" layoutX="488.0" layoutY="215.0" prefHeight="365.0" prefWidth="186.0" style="-fx-font-size: 14.0;" />
+        <WebView fx:id="webView" layoutX="688.0" layoutY="215.0" prefHeight="366.0" prefWidth="294.0" />
+      <Button fx:id="buttonBack" layoutX="941.0" layoutY="618.0" mnemonicParsing="false" onAction="#switchBack" opacity="0.0" prefHeight="62.0" prefWidth="58.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ChoiceBox fx:id="wordType" layoutX="24.0" layoutY="278.0" prefHeight="30.0" prefWidth="282.0" style="-fx-font-size: 14.0;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ImageView fitHeight="30.0" fitWidth="32.0" layoutX="888.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/sound.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="soundButton" layoutX="874.0" layoutY="215.0" mnemonicParsing="false" onAction="#soundButtonAction" opacity="0.0" prefHeight="42.0" prefWidth="58.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>

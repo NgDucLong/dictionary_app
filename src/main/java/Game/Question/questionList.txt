@@ -1,0 +1,48 @@
+What is the capital of France?;Paris;Madrid;Berlin;Rome;Paris
+Who wrote 'Romeo and Juliet'?;William Shakespeare;Charles Dickens;Jane Austen;Leo Tolstoy;William Shakespeare
+Which planet is known as the Red Planet?;Mercury;Venus;Mars;Jupiter;Mars
+What is the chemical symbol for water?;H;O;NaCl;H2O;H2O
+Who painted the Mona Lisa?;Leonardo da Vinci;Pablo Picasso;Vincent van Gogh;Claude Monet;Leonardo da Vinci
+What is the largest mammal in the world?;Elephant;Blue Whale;Giraffe;Lion;Blue Whale
+Which country is known as the Land of the Rising Sun?;China;India;Japan;South Korea;Japan
+What is the chemical symbol for gold?;Au;Ag;Hg;Pt;Au
+Who discovered penicillin?;Marie Curie;Alexander Fleming;Isaac Newton;Albert Einstein;Alexander Fleming
+Which famous physicist developed the theory of relativity?;Isaac Newton;Albert Einstein;Nikola Tesla;Galileo Galilei;Albert Einstein
+What is the plural form of "child"?;childs;childen;child's;children;children
+What is the past tense of "eat"?;eated;eatten;ate;eaten;ate
+Choose the correct form of the verb:
+I _______ to the gym every morning.;go;goes;goed;going;go
+Which word is a synonym for "happy"?;sad;joyful;angry;upset;joyful
+What is the opposite of "fast"?;slow;quick;rapid;speedy;slow
+Choose the correct preposition:
+She is sitting _______ the table.;in;on;at;by;at
+What is the comparative form of "big"?;biger;bigest;bigger;biggier;bigger
+Give the past tense of "sing".;singed;sang;sung;sings;sang
+What is the opposite of "happy"?;sad;joyful;angry;upset;sad
+Give a synonym for "beautiful".;ugly;pretty;handsome;lovely;pretty
+What is the possessive form of "dog"?;dogs;doges;dog's;dogies;dog's
+Write the gerund form of "swim".;swim;swam;swum;swimming;swimming
+What is the comparative form of "far"?;farther;further;farest;more far;farther
+Provide the correct preposition for the sentence: "The cat is sitting ______ the table.";in;on;at;by;on
+What does the acronym "USA" stand for?;United States of Africa;United States of America;United States of Asia;Union of South America;United States of America
+Which of these sentences is in the past tense?;She runs fast.;He will swim tomorrow.;They are eating lunch.;We played soccer yesterday.;We played soccer yesterday.
+Which word is a conjunction?;And;House;Happy;Quickly;And
+What is the past participle of the verb "to break"?;Breaking;Breaks;Broke;Broken;Broken
+What is the comparative form of the adjective "good"?;Best;Better;Gooder;Goodest;Better
+Who is credited with inventing the telephone?;Thomas Edison;Alexander Graham Bell;Nikola Tesla;Guglielmo Marconi;Alexander Graham Bell
+What is the tallest mountain in the world?;Mount Kilimanjaro;Mount Everest;K2;Mount McKinley;Mount Everest
+What is the largest ocean in the world?;Atlantic Ocean;Indian Ocean;Pacific Ocean;Arctic Ocean;Pacific Ocean
+Who wrote the novel "To Kill a Mockingbird"?;Harper Lee;J.K. Rowling;George Orwell;Mark Twain;Harper Lee
+Which planet is known as the "Blue Planet"?;Earth;Mars;Venus;Mercury;Earth
+Which city is known as the "City of Love"?;Paris;Rome;Venice;Barcelona;Paris
+What is the largest organ in the human body?;Liver;Heart;Brain;Skin;Skin
+Who is the first woman to win a Nobel Prize?;Marie Curie;Rosa Parks;Mother Teresa;Margaret Thatcher;Marie Curie
+Who is the author of "The Great Gatsby"?;F. Scott Fitzgerald;Ernest Hemingway;John Steinbeck;Virginia Woolf;F. Scott Fitzgerald
+Which animal is known as the "King of the Jungle"?;Lion;Tiger;Elephant;Gorilla;Lion
+Which continent is the largest by land area?;Africa;Asia;Europe;North America;Asia
+Who invented the light bulb?;Thomas Edison;Nikola Tesla;Benjamin Franklin;Alexander Graham Bell;Thomas Edison
+Who wrote the novel "1984"?;George Orwell;Aldous Huxley;J.R.R. Tolkien;H.G. Wells;George Orwell
+Identify the subject in the following sentence: "The cat chased the mouse.";Mouse;Chased;The;Cat;Cat
+What part of speech is the word "quickly"?;Verb;Noun;Adjective;Adverb;Adverb
+Which of the following is an example of a preposition?;Run;House;Under;Jump;Under
+Which sentence is grammatically correct?;He goed to the store yesterday.;She have been studying all day.;They is going to the party tonight.;We went to the beach last summer.

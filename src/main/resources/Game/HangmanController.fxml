@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.Hangman.HangmanController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#backToHome" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/left.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label alignment="CENTER" layoutX="457.0" layoutY="128.0" prefWidth="400.0" text="HANGMAN GAME" textFill="#f20206" underline="true" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img" fitHeight="400.0" fitWidth="450.0" layoutX="518.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="20.0">
+         <image>
+            <Image url="@../Image/1.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.04" />
+         </effect>
+      </ImageView>
+      <HBox layoutX="589.0" layoutY="436.0" prefHeight="40.0" prefWidth="395.0" spacing="10.0" style="-fx-border-radius: 15;" AnchorPane.rightAnchor="50.0">
+         <children>
+            <TextField fx:id="tf1" alignment="CENTER" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf2" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf3" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf4" alignment="CENTER" layoutX="90.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf5" alignment="CENTER" layoutX="130.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf6" alignment="CENTER" layoutX="170.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf7" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+            <TextField fx:id="tf8" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="40.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="60.0" layoutY="396.0" prefHeight="40.0" prefWidth="445.0" spacing="5.0" AnchorPane.bottomAnchor="220.0" AnchorPane.leftAnchor="60.0">
+         <children>
+            <Button fx:id="Q" mnemonicParsing="false" onAction="#handleQButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="Q" />
+            <Button fx:id="W" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleWButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="W" />
+            <Button fx:id="E" layoutX="50.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleEButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="E" />
+            <Button fx:id="R" layoutX="90.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleRButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="R" />
+            <Button fx:id="T" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleTButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="T" />
+            <Button fx:id="Y" layoutX="170.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleYButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="Y" />
+            <Button fx:id="U" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleUButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="U" />
+            <Button fx:id="I" layoutX="250.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleIButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="I" />
+            <Button fx:id="O" layoutX="290.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleOButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="O" />
+            <Button fx:id="P" layoutX="330.0" layoutY="10.0" mnemonicParsing="false" onAction="#handlePButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="P" />
+         </children>
+      </HBox>
+      <HBox layoutX="71.0" layoutY="456.0" prefHeight="40.0" prefWidth="400.0" spacing="5.0" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="80.0">
+         <children>
+            <Button fx:id="A" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleAButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="A" />
+            <Button fx:id="S" layoutX="50.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleSButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="S" />
+            <Button fx:id="D" layoutX="90.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleDButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="D" />
+            <Button fx:id="F" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleFButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="F" />
+            <Button fx:id="G" layoutX="170.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleGButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="G" />
+            <Button fx:id="H" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleHButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="H" />
+            <Button fx:id="J" layoutX="250.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleJButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="J" />
+            <Button fx:id="K" layoutX="290.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleKButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="K" />
+            <Button fx:id="L" layoutX="330.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleLButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="L" />
+         </children>
+      </HBox>
+      <HBox layoutX="71.0" layoutY="520.0" prefHeight="40.0" prefWidth="310.0" spacing="5.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="120.0">
+         <children>
+            <Button fx:id="Z" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleZButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="Z" />
+            <Button fx:id="X" layoutX="50.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleXButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="X" />
+            <Button fx:id="C" layoutX="90.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleCButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="C" />
+            <Button fx:id="V" layoutX="130.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleVButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="V" />
+            <Button fx:id="B" layoutX="170.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleBButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="B" />
+            <Button fx:id="N" layoutX="210.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleNButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="N" />
+            <Button fx:id="M" layoutX="250.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleMButtonClick" prefHeight="40.0" prefWidth="40.0" style="-fx-background-radius: 12;" text="M" />
+         </children>
+      </HBox>
+      <Button alignment="CENTER" layoutX="390.0" layoutY="594.0" mnemonicParsing="false" onAction="#handleNewWordButtonClick" prefWidth="240.0" text="ANOTHER WORD" textFill="#d0184c" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="380.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="hintLabel" layoutX="60.0" layoutY="129.0" text="HINT:" textFill="RED" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="hint" layoutX="120.0" layoutY="238.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="240.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="letterCount" layoutX="120.0" layoutY="191.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="bonus1" layoutX="120.0" layoutY="293.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="bonus2" layoutX="130.0" layoutY="290.0" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="320.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
